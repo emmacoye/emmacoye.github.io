@@ -157,14 +157,18 @@ a:hover{
 }
 
 .title_info{
+  display: flex;
   color: white;
-  font-size: 300%;
+  font-size: 7vw;
+  text-align: center;
 }
 
 #title{
   display: flex;
   justify-content: center;
   color: white;
+  text-align: center;
+  font-size: 3vw;
 }
 
 main{
@@ -405,5 +409,20 @@ footer{
     background-size: cover;
     padding-top: 30%;
     margin: 10px;
+  }
+
+  .title_info{
+    display: flex;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+  #title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
   }
 }
