@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>UNC Photo Club - COMP 126</title>
+    <meta name="author" content="Adtile">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/responsive-nav.js"></script>
+</head>
+<body class = "grid-template">
+    <header>
+                <img class = "logo" src="imgs/logo.png" alt = "logo">
+        <div class="header-right">
+            
+            <nav class="nav-collapse">
+                <ul>
+                    <li class="menu-item"><a href="index.html" >Home</a></li>
+                    <li class="menu-item"><a href="html_files/service.html" >Services</a></li>
+                    <li class="menu-item"><a href="html_files/about.html" >About</a></li>
+                    <li class="menu-item"><a href="html_files/gallery.html" >Gallery</a></li>
+                    <li class="menu-item"><a href="html_files/faq.html" >FAQ</a></li>
+                    <li class="menu-item"><a href="html_files/contact.html" >Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<div class = "header_image">
+        <div class = "header_photo" id = "picture">
+            <div class="main_title"> <h1 class = "title_info">UNC PHOTO CLUB</h1></div>
+        </div>
+</div>
+
+    <h1 id = "title">
+        Turn your vision into a Reality.
+    </h1>
+
+  <main>
+    <div class = "welcome">
+        <h2>
+            Our Mission
+        </h2>
+        <p class = "mission">
+            Whether you come with all the experience in the world or are a newcomer to photography, UNC Photo Club is here to help you gain experience from all skill levels. Come build your portfolio, gain a profit, and ignite your passion for photography!
+        </p>
+        <form action = "html_files/about.html" id = "learn_button"> <!--got from stack overflow to fix w3c validator error-->
+            <button class="button1">Learn More</button>
+        </form>
+    </div>
+
+    <div class="form">
+        <form>
+                <h2>Become a Member Today!</h2>
+                <p class="para">You will recieve a membership signup form in your email.</p>
+            <label for="name">Your name</label>
+            <br>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email</label> 
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="PID">PID</label> 
+            <br>
+            <input type="text" id="PID" name="PID">
+            <button type="submit" class="color-transition">Submit</button>
+        </form>
+    </div>
+  </main>
+
+  <div class="pictures">
+    <div class="column" id="first"></div>
+    <div class="column" id="second"></div>
+    <div class="column" id="third"></div>
+    </div>
+
+  <footer>
+    <p class = "footertext">
+        &copy; COMP 126 Final Project - Emma Coye, Siddhant Saxena, Nhu Le, Carmine Anderson - Falconi
+    </p>
+  </footer>
+    
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+</body>
+</html>
